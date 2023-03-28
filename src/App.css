@@ -1,0 +1,204 @@
+#app_root {
+  display: flex;
+  flex-direction: column;
+  background-color:  #1030ad;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-stretch: expanded;
+  color: #FFCC00;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-stretch: expanded; */
+  font-weight: lighter;
+  color: #FFCC00;
+}
+
+h3 {
+  font-size: 10px;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-stretch: expanded;
+  color: #FFCC00;
+}
+
+pre {
+  /* font-size: 60px; */
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-stretch: expanded;
+  color: #FFCC00;
+}
+
+p {
+  /* font-size: 60px; */
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-stretch: expanded;
+  color: #FFCC00;
+}
+
+.item_actions {
+  /* font-size: 60px; */
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-stretch: expanded;
+  color: #FFCC00;
+}
+
+header {
+  text-align: center;
+  border: 3px solid #FFCC00;
+}
+
+main {
+  min-height: 1120px;
+}
+
+footer {
+  text-align: center;
+  background-color: red;
+  font-style: italic;
+}
+
+.page_container {
+  padding: 64px;
+  background-color: #1030ad;
+  border: 3px solid #FFCC00;
+
+}
+
+.section_container {
+  border: 3px solid #FFCC00;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5%;
+  padding: 36px;
+  margin: 6px 0;
+  box-shadow: #FFCC00 10px 10px 10px 15px;
+}
+
+.inventory_item {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.item_title {
+  height: 5px;
+}
+
+.basic_container_column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5%;
+}
+
+.basic_container_row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5%;
+}
+
+.align_center {
+  align-items: center;
+}
+
+/* release 0 SC 3/28/2023 2:27 PM
+
+#app_root {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+header {
+  text-align: center;
+  border: 3px dotted black;
+}
+
+main {
+  min-height: 800px;
+}
+
+footer {
+  text-align: center;
+  background-color: red;
+}
+
+.title_container {
+  border: 3px solid black;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.inventory_item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.item_title {
+  height: 50px;
+}
+
+.item_actions {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+} */
+
+/* Boilerplate SC 3/28/2023 2:19 PM
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
